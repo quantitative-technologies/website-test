@@ -1,10 +1,12 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "ananke"
-#pygmentsCodefences = true
-#pygmentsStyle = "github"
+theme = "toha"
 [markup]
   [markup.highlight]
-    style = 'github'
-
+    noClasses = true
+    style = 'monokai'
+    lineNos = true
+    
+[params]
+  enableBlogPost = true
